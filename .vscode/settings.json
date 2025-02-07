@@ -1,0 +1,9 @@
+{
+  "editor.defaultFormatter": "astro-build.astro-vscode",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  }
+}
