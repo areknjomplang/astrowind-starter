@@ -11,19 +11,19 @@
     "clean": "rimraf dist"
   },
   "devDependencies": {
-    "@fontsource-variable/eb-garamond": "^5.1.2",
-    "@fontsource-variable/inter": "^5.1.1",
-    "@tailwindcss/vite": "^4.0.4",
+    "@fontsource-variable/eb-garamond": "^5.2.5",
+    "@fontsource-variable/inter": "^5.2.5",
+    "@tailwindcss/vite": "^4.0.17",
     "@types/alpinejs": "^3.13.11",
-    "alpinejs": "^3.14.8",
+    "alpinejs": "^3.14.9",
     "aos": "^2.3.4",
-    "astro": "^5.2.5",
+    "astro": "^5.5.5",
     "jquery": "^3.7.1",
-    "prettier": "^3.4.2",
+    "prettier": "^3.5.3",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "rimraf": "^6.0.1",
-    "tailwindcss": "^4.0.4",
+    "tailwindcss": "^4.0.17",
     "vite-plugin-lightningcss": "^0.0.5"
   },
   "browserslist": [
