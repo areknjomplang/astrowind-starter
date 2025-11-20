@@ -2,7 +2,7 @@
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import lightningCSS from "vite-plugin-lightningcss";
-import { browserslist as bl } from "./package.json";
+import pkg from './package.json' with {type: "json"}
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,7 +10,7 @@ export default defineConfig({
     plugins: [
       tailwindcss(),
       lightningCSS({
-        browserslist: bl,
+        browserslist: pkg.browserslist,
       }),
     ],
   },
